@@ -1,0 +1,42 @@
+[2024-05-19T16:28:36.942+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_postgres_example.create_pet_table manual__2024-05-19T16:28:33.203937+00:00 [queued]>
+[2024-05-19T16:28:36.975+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_postgres_example.create_pet_table manual__2024-05-19T16:28:33.203937+00:00 [queued]>
+[2024-05-19T16:28:36.976+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-19T16:28:36.976+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-05-19T16:28:37.025+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-19T16:28:37.131+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): create_pet_table> on 2024-05-19 16:28:33.203937+00:00
+[2024-05-19T16:28:37.184+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'op_postgres_example', 'create_pet_table', 'manual__2024-05-19T16:28:33.203937+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/op_postgresql.py', '--cfg-path', '/tmp/tmp5f4y32lm']
+[2024-05-19T16:28:37.171+0000] {standard_task_runner.py:55} INFO - Started process 1838 to run task
+[2024-05-19T16:28:37.187+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask create_pet_table
+[2024-05-19T16:28:37.291+0000] {task_command.py:388} INFO - Running <TaskInstance: op_postgres_example.create_pet_table manual__2024-05-19T16:28:33.203937+00:00 [running]> on host 92eda483e798
+[2024-05-19T16:28:37.435+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=op_postgres_example
+AIRFLOW_CTX_TASK_ID=create_pet_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-19T16:28:33.203937+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-19T16:28:33.203937+00:00
+[2024-05-19T16:28:37.436+0000] {sql.py:254} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS pet (
+                pet_id SERIAL PRIMARY KEY,
+                name VARCHAR NOT NULL,
+                pet_type VARCHAR NOT NULL,
+                birth_date DATE NOT NULL,
+                owner VARCHAR NOT NULL
+            );
+        
+[2024-05-19T16:28:37.462+0000] {base.py:73} INFO - Using connection ID '***_default' for task execution.
+[2024-05-19T16:28:40.655+0000] {base.py:73} INFO - Using connection ID '***_default' for task execution.
+[2024-05-19T16:28:40.751+0000] {sql.py:375} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS pet (
+                pet_id SERIAL PRIMARY KEY,
+                name VARCHAR NOT NULL,
+                pet_type VARCHAR NOT NULL,
+                birth_date DATE NOT NULL,
+                owner VARCHAR NOT NULL
+            );
+        , parameters: None
+[2024-05-19T16:28:40.831+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=op_***_example, task_id=create_pet_table, execution_date=20240519T162833, start_date=20240519T162836, end_date=20240519T162840
+[2024-05-19T16:28:40.960+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-05-19T16:28:41.019+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

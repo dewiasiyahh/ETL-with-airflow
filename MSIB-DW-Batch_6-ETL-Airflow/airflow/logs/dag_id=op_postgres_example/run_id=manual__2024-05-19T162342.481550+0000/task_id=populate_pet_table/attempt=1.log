@@ -1,0 +1,39 @@
+[2024-05-19T16:23:54.307+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_postgres_example.populate_pet_table manual__2024-05-19T16:23:42.481550+00:00 [queued]>
+[2024-05-19T16:23:54.350+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_postgres_example.populate_pet_table manual__2024-05-19T16:23:42.481550+00:00 [queued]>
+[2024-05-19T16:23:54.351+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-19T16:23:54.352+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-05-19T16:23:54.355+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-19T16:23:54.391+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): populate_pet_table> on 2024-05-19 16:23:42.481550+00:00
+[2024-05-19T16:23:54.403+0000] {standard_task_runner.py:55} INFO - Started process 1656 to run task
+[2024-05-19T16:23:54.409+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'op_postgres_example', 'populate_pet_table', 'manual__2024-05-19T16:23:42.481550+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/op_postgresql.py', '--cfg-path', '/tmp/tmpboxpw129']
+[2024-05-19T16:23:54.414+0000] {standard_task_runner.py:83} INFO - Job 20: Subtask populate_pet_table
+[2024-05-19T16:23:54.624+0000] {task_command.py:388} INFO - Running <TaskInstance: op_postgres_example.populate_pet_table manual__2024-05-19T16:23:42.481550+00:00 [running]> on host 92eda483e798
+[2024-05-19T16:23:54.753+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=op_postgres_example
+AIRFLOW_CTX_TASK_ID=populate_pet_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-19T16:23:42.481550+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-19T16:23:42.481550+00:00
+[2024-05-19T16:23:54.758+0000] {sql.py:254} INFO - Executing: INSERT INTO pet (name, pet_type, birth_date, owner)
+SELECT
+    md5(random()::text),          -- Generate a random name (MD5 hash)
+    CASE WHEN random() < 0.5 THEN 'Dog' ELSE 'Cat' END,  -- Randomly assign 'Dog' or 'Cat'
+    NOW() - '1 day'::INTERVAL * (RANDOM()::int * 100),  -- Random birth date (within the last 100 days)
+    md5(random()::text)           -- Generate a random owner name (MD5 hash)
+FROM generate_series(1, 100);
+[2024-05-19T16:23:54.787+0000] {base.py:73} INFO - Using connection ID '***_default' for task execution.
+[2024-05-19T16:23:55.369+0000] {base.py:73} INFO - Using connection ID '***_default' for task execution.
+[2024-05-19T16:23:55.381+0000] {sql.py:375} INFO - Running statement: INSERT INTO pet (name, pet_type, birth_date, owner)
+SELECT
+    md5(random()::text),          -- Generate a random name (MD5 hash)
+    CASE WHEN random() < 0.5 THEN 'Dog' ELSE 'Cat' END,  -- Randomly assign 'Dog' or 'Cat'
+    NOW() - '1 day'::INTERVAL * (RANDOM()::int * 100),  -- Random birth date (within the last 100 days)
+    md5(random()::text)           -- Generate a random owner name (MD5 hash)
+FROM generate_series(1, 100);, parameters: None
+[2024-05-19T16:23:55.485+0000] {sql.py:384} INFO - Rows affected: 100
+[2024-05-19T16:23:55.516+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=op_***_example, task_id=populate_pet_table, execution_date=20240519T162342, start_date=20240519T162354, end_date=20240519T162355
+[2024-05-19T16:23:55.603+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-05-19T16:23:55.639+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

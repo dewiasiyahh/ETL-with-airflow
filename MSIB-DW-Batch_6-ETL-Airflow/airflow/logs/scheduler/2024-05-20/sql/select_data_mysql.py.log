@@ -1,0 +1,84 @@
+[2024-05-20T11:18:53.197+0000] {processor.py:153} INFO - Started process (PID=4858) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:18:53.198+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:18:53.199+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:18:53.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:18:53.264+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:18:53.336+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:18:53.336+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:18:53.363+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:18:53.363+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:18:53.394+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.201 seconds
+[2024-05-20T11:19:25.033+0000] {processor.py:153} INFO - Started process (PID=4883) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:25.045+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:19:25.046+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:25.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:25.183+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:25.261+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:25.248+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:19:25.487+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:25.487+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:19:25.694+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.663 seconds
+[2024-05-20T11:19:57.408+0000] {processor.py:153} INFO - Started process (PID=4908) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:57.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:19:57.510+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:57.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:58.091+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:19:59.214+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:59.214+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:19:59.366+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:19:59.366+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:19:59.831+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 2.885 seconds
+[2024-05-20T11:20:30.760+0000] {processor.py:153} INFO - Started process (PID=4933) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:20:30.765+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:20:30.766+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:20:30.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:20:30.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:20:31.091+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:20:31.091+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:20:31.160+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:20:31.160+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:20:31.310+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.554 seconds
+[2024-05-20T11:21:02.556+0000] {processor.py:153} INFO - Started process (PID=4958) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:02.559+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:21:02.576+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:02.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:02.814+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:02.855+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:02.854+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:21:02.983+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:02.983+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:21:03.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.576 seconds
+[2024-05-20T11:21:33.268+0000] {processor.py:153} INFO - Started process (PID=4983) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:33.269+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:21:33.271+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:33.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:33.333+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:21:33.468+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:33.468+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:21:33.498+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:21:33.497+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:21:33.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.263 seconds
+[2024-05-20T11:22:04.064+0000] {processor.py:153} INFO - Started process (PID=5008) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:04.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:22:04.067+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:04.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:04.124+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:04.155+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:04.155+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:22:04.188+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:04.188+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:22:04.216+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.155 seconds
+[2024-05-20T11:22:34.619+0000] {processor.py:153} INFO - Started process (PID=5033) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:34.620+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:22:34.621+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:34.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:34.753+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:22:34.803+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:34.802+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:22:34.908+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:22:34.907+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:22:35.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.480 seconds
+[2024-05-20T11:23:05.771+0000] {processor.py:153} INFO - Started process (PID=5058) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:05.788+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:23:05.802+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:05.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:06.114+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:06.297+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:06.297+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:23:06.374+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:06.374+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:23:06.419+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.652 seconds
+[2024-05-20T11:23:36.831+0000] {processor.py:153} INFO - Started process (PID=5083) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:36.833+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:23:36.835+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:36.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:36.890+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:23:36.916+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:36.916+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:23:36.964+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:23:36.964+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:23:37.005+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.177 seconds
+[2024-05-20T11:24:07.735+0000] {processor.py:153} INFO - Started process (PID=5112) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:07.736+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:24:07.737+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:07.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:07.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:07.879+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:07.879+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:24:08.027+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:08.026+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:24:08.191+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.478 seconds
+[2024-05-20T11:24:38.512+0000] {processor.py:153} INFO - Started process (PID=5137) to work on /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:38.513+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sql/select_data_mysql.py for tasks to queue
+[2024-05-20T11:24:38.514+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:38.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:38.594+0000] {processor.py:753} INFO - DAG(s) dict_keys(['op_mysql_example']) retrieved from /opt/airflow/dags/sql/select_data_mysql.py
+[2024-05-20T11:24:38.681+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:38.681+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-20T11:24:38.717+0000] {logging_mixin.py:137} INFO - [2024-05-20T11:24:38.717+0000] {dag.py:3437} INFO - Setting next_dagrun for op_mysql_example to 2024-05-20T00:00:00+00:00, run_after=2024-05-21T00:00:00+00:00
+[2024-05-20T11:24:38.771+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sql/select_data_mysql.py took 0.263 seconds

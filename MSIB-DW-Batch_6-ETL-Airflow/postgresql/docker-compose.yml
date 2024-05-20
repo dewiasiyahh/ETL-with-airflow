@@ -1,0 +1,11 @@
+version: '2'
+services:
+  postgres-msib:
+    image: postgres:15
+    container_name: postgres-msib
+    env_file:
+      - .env
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 5436:5432/tcp

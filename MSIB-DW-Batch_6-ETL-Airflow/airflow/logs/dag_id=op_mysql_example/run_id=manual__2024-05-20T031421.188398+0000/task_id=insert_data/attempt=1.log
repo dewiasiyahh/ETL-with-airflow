@@ -1,0 +1,27 @@
+[2024-05-20T03:14:31.847+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_mysql_example.insert_data manual__2024-05-20T03:14:21.188398+00:00 [queued]>
+[2024-05-20T03:14:31.861+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: op_mysql_example.insert_data manual__2024-05-20T03:14:21.188398+00:00 [queued]>
+[2024-05-20T03:14:31.862+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-20T03:14:31.863+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-05-20T03:14:31.863+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-20T03:14:31.879+0000] {taskinstance.py:1300} INFO - Executing <Task(MySqlOperator): insert_data> on 2024-05-20 03:14:21.188398+00:00
+[2024-05-20T03:14:31.885+0000] {standard_task_runner.py:55} INFO - Started process 730 to run task
+[2024-05-20T03:14:31.889+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'op_mysql_example', 'insert_data', 'manual__2024-05-20T03:14:21.188398+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/op_mysql.py', '--cfg-path', '/tmp/tmpezrdugrg']
+[2024-05-20T03:14:31.891+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask insert_data
+[2024-05-20T03:14:31.987+0000] {task_command.py:388} INFO - Running <TaskInstance: op_mysql_example.insert_data manual__2024-05-20T03:14:21.188398+00:00 [running]> on host 92eda483e798
+[2024-05-20T03:14:32.211+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=op_mysql_example
+AIRFLOW_CTX_TASK_ID=insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-20T03:14:21.188398+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-20T03:14:21.188398+00:00
+[2024-05-20T03:14:32.212+0000] {sql.py:254} INFO - Executing: INSERT INTO students (name) VALUES ('Alex Jones');
+[2024-05-20T03:14:32.244+0000] {base.py:73} INFO - Using connection ID '***_conn' for task execution.
+[2024-05-20T03:14:32.941+0000] {base.py:73} INFO - Using connection ID '***_conn' for task execution.
+[2024-05-20T03:14:33.030+0000] {sql.py:375} INFO - Running statement: INSERT INTO students (name) VALUES ('Alex Jones');, parameters: None
+[2024-05-20T03:14:33.464+0000] {sql.py:384} INFO - Rows affected: 1
+[2024-05-20T03:14:33.602+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=op_***_example, task_id=insert_data, execution_date=20240520T031421, start_date=20240520T031431, end_date=20240520T031433
+[2024-05-20T03:14:33.718+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-05-20T03:14:33.763+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
